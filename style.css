@@ -1,1 +1,66 @@
+/* จัดการรูปร่างหน้าตาพื้นฐาน */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
 
+header, section, footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    background: #007bff;
+    color: white;
+}
+
+/* ส่วนเกี่ยวกับฉันและรูปโปรไฟล์ */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+    object-fit: cover; /* ตัดรูปให้พอดีไม่เบี้ยว */
+    border: 3px solid #007bff;
+}
+
+/* ส่วนผลงานและตารางกริด */
+.projects-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* ถ้าระยะไม่พอให้ปัดลงบรรทัดใหม่ */
+}
+
+.project-card {
+    flex: 1;
+    min-width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* ไม่ให้รูปมุมเหลี่ยมทะลุขอบโค้งของกล่อง */
+    background: #fafafa;
+}
+
+.project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.project-info {
+    padding: 15px;
+}
