@@ -1,1 +1,62 @@
 
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="เว็บไซต์แสดงผลงานและทักษะของ chanyanut">
+    <title>ความภาคภูมิใจของ chanyanut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>สวัสดี! ฉันคือ chanyanut</h1>
+        <p>นี่คือผลงานและความภาคภูมิใจของฉัน</p>
+    </header>
+
+    <section id="about">
+        <h2>เกี่ยวกับฉัน</h2>
+        <img src="tt.jpg" width="200" alt="รูปโปรไฟล์ของ chanyanut">
+        <p>ชอบฟังเพลง ดูหนัง เลี้ยงแมว ชอบสีฟ้า 💙</p>
+    </section>
+
+    <section id="projects">
+        <h2>ผลงานของฉัน</h2>
+
+        <div class="project">
+            <h3>เว็บไซต์ Portfolio</h3>
+            <p>เว็บไซต์นี้เป็นหนึ่งในผลงานที่ฉันสร้างขึ้นเพื่อแสดงความสามารถของฉัน</p>
+        </div>
+
+        <div class="project">
+            <h3>แอปพลิเคชันจัดการงาน</h3>
+            <p>แอปพลิเคชันที่ช่วยให้ผู้ใช้งานจัดการงานได้อย่างมีประสิทธิภาพ</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>ทักษะของฉัน</h2>
+        <ul>
+            <li>อ่านภาษาญี่ปุ่นได้นิดหน่อย</li>
+            <li>ฟังภาษาญี่ปุ่นได้นิดหน่อย</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>ติดต่อฉัน: 
+            <a href="mailto:s34532@banbung.ac.th">s34532@banbung.ac.th</a>
+        </p>
+        <p>&copy; <span id="year"></span> chanyanut. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+    <!-- ลิงก์ไปยัง JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
